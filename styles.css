@@ -1,0 +1,170 @@
+html {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePgvv1wGkcyPREeClJ-7dTMNAiFZVS2ZOqTfy9UoCsR3YMSMyWfX2O3BcJ5ssKC1FruM&usqp=CAU");
+    background-color: darkGray;
+    color: slateGray;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: floralwhite;
+    opacity: 75%;
+    padding: 10px 50px 10px 100px;
+    transition: margin-left .5s;
+    margin-left: 10%;
+}
+header{
+    background-image: url("https://vbtastrolive.com/wp-content/uploads/2018/03/Fallingflowers.gif");
+}
+
+nav {
+  height: 100%; /* 100% Full-height */
+  position: fixed; /* Stay in place */
+  width: 15%;
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: mistyRose; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+   text-decoration: none;
+    font: bold 20px "Arial Black", Gadget, sans-serif;  
+    padding: 20px;
+    display: block;
+  transition: 0.3s;
+}
+
+nav ul li a:link {
+    color: DarkSlateGray;
+}
+
+nav ul li a:visited {
+    color: MidnightBlue;
+}
+
+nav ul li a:hover {
+    color: Maroon;
+    background-color: oldLace;
+}
+
+nav ul li a:active {
+    color: Red;
+}
+
+.active {
+    background-color: #ffbab3;
+}
+nav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.logo {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #ffbab3;
+}
+
+.logo:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+.logo:active {
+  box-shadow: 0 5px maroon;
+  transform: translateY(4px);
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.container {
+  border: 15px solid oldlace;
+  padding: 50px;
+  margin: 20px;
+  background-color: oldlace;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.video {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 5px grey;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+fieldset{ color: #000;
+    font:  20px 'Great Vibes', cursive;
+    background-color:#FFF;
+    margin-bottom: 0;
+    text-shadow: 3px 3px 6px #2F4F4F;
+    text-align: center;
+}
+
+input,textarea, button, input[type="button, label, fieldset"]{
+    background-color: #006001;
+    color:#FFF;
+    border: 2px solid #000;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-size:20px;
+    margin-left:10px;
+    font: 'Mark Script' cursive;
+}
+
+table{
+margin-bottom:50px;
+border-collapse: collapse;
+margin: 30px auto 50px auto;
+background-color:oldlace;
+}
+th, td{
+    border: 2px solid #FFF;
+    padding: 5px;
+}
+
+mark {
+  background-color: mistyrose;
+}
